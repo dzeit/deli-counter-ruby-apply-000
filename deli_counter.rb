@@ -12,11 +12,12 @@ def line(names)
 end 
 
 def take_a_number(current_line, "Ada")
-  while 
-  current_line << " #{i}. #{name}"
-  current_line += 1 
+  while current_line = "The line is currently:"
+    names.each.with_index(1) do |name, i|
+      current_line << " #{i}. #{name}"
+      current_line += 1 
   end 
-  puts 
+  puts current_line
 
 end 
   

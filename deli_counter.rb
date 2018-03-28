@@ -6,9 +6,7 @@ def line(names)
     names.each do |name|
       puts "#{x}. #{name}"
     end 
-      
   end
-
 end 
 
   

@@ -11,7 +11,7 @@ def line(names)
   end
 end 
 
-def take_a_number(current_line, "Ada")
+def take_a_number(current_line, "name")
   while current_line = "The line is currently:"
     names.each.with_index(1) do |name, i|
       current_line << " #{i}. #{name}"

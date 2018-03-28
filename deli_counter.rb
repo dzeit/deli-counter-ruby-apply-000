@@ -12,7 +12,7 @@ def line(names)
 end 
 
 def take_a_number(current_line, "Ada")
-  while current_line 
-  
+  while current_line = 
+
 end 
   

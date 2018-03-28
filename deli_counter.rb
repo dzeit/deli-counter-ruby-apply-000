@@ -4,7 +4,7 @@ def line(names)
     puts "The line is currently empty."
   else 
     names.each do |name|
-      
+      puts "#{x}. #{name}"
     end 
       
   end

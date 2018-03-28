@@ -12,6 +12,8 @@ def line(names)
 end 
 
 def take_a_number(current_line, name)
+  current_line.push(name)
+  current_line.length
  puts "Welcome, #{name}. You are number #{} in line."
   
 

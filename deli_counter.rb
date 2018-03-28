@@ -11,7 +11,7 @@ def line(names)
   end
 end 
 
-def take_a_number(names, "Ada")
+def take_a_number(current_line, "Ada")
   
   
 end 

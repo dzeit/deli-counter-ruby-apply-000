@@ -11,4 +11,3 @@ def line(names)
   end
 end 
 
-  

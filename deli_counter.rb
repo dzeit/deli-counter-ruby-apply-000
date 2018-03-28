@@ -6,7 +6,7 @@ def line(names)
     current_line = "The line is currently: "
     names.each.with_index(1) do |name, i|
       current_line.push()
-      puts "#{i}. #{name}"
+      puts 
     end 
   end
 end 
